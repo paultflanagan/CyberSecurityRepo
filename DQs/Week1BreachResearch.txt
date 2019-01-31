@@ -1,0 +1,49 @@
+You will be required to post your initial response (200-word min) and reply to two students. "I agree" will not count towards a response. Create a new thread when you initially respond and replies will be done under each students response. 
+
+
+Please go to: https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/
+
+Note that the size of the breach is indicated by the size of the bubble. Click on any bubble and read its story.
+
+Report on what you learned about this breach. How did it happen? How many people were impacted? Could it have been prevented? If so, what would you have done to prevent this? If not, why? Does it remind you of any other data breaches? What are the lessons learned? 
+
+Be ready to talk in class about your findings.
+
+
+Give a short summary of the breach.
+    Beginning in early 2014, Cambridge Analytica, Robert Mercer, and Steve Bannon were involved in a purchase of over $1 million for the personal data of Facebook users taken from their profiles. This breach of privacy was not revealed until March of 2018, which presumably means that the personal information leaks had continued the whole 4 years. The data analytics firm used the data to influence political ads shown to Facebook users in regards to the American Presidential elections and the British Brexit elections.
+
+How did it happen?
+    Cambridge University's Cambridge Analytica collected the data with an app called "thisisyourdigitallife", which paid hundreds of thousands of volunteering Facebook users to take surveys and agree to disclose their personal data for the purposes of academic use. However, the firm went on to collect the information of the Facebook friends of those who took the tests, giving them a web of data which included tens of millions of users. This was in violation of Facebook's "Platform Policy", which claimed to only use the data of "Friends" in order to enhance user experience, while prohibiting the sale of this data for advertising. This data was used to build political profiles of Facebook users and Cambridge ANalytica sold this information to advertisers for the purpose of tailoring political ads to Facebook users.
+
+How many people were impacted?
+    In total, 50,000,000 people's data were compromised.
+
+Could it have been prevented?
+    While not a typical information breach in terms of the method through which the data were acquired, it is an example of one of the more modern forms of information breaches which occurs on a more meta level, that is, in regards to the holders of personal data, and was one of the larger instances which helped to open the way for the discussion of many topics of such meta information security.
+
+    If so, what would I have done to prevent this?
+        As such, the most promising preventative countermeasure to such breaches would most likely be along the lines of regulation of those who control such large amounts of personal data.
+    If not, why?
+        [n/a]
+    
+Does it remind you of any other data breaches?
+    This event reminds me of many of the sorts of privacy breaches that we are beginning to witness in recent years. These are different from the sorts which are brought to mind when considering breaches of privacy, being less about flaws in the inherent structure of personal data storage and more in the lack of familiarity and collective experience with such extensive collections of data, specifically regarding the rights and ownership of the data which is inevitably collected about users.
+
+What are the lessons learned?
+    This breach served as a wake up call for both consumers and large-scale data analysts. It brought the potential for the abuse of such large accumulations of data into the public eye and reminded the public of the importance of data security on every level.
+
+
+Work Cited:
+https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election?CMP=twt_gu; Written 17-Mar-2018; Accessed 30-Jan-2019.
+
+
+
+
+Beginning in early 2014, Cambridge Analytica, Robert Mercer, and Steve Bannon were involved in a purchase of over $1 million for the personal data of Facebook users taken from their profiles. This breach of privacy was not revealed until March of 2018, which presumably means that the personal information leaks had continued the whole 4 years. The data analytics firm used the data to influence political ads shown to Facebook users in regards to the American Presidential elections and the British Brexit elections.
+Cambridge University's Cambridge Analytica collected the data with an app called "thisisyourdigitallife", which paid hundreds of thousands of volunteering Facebook users to take surveys and agree to disclose their personal data for the purposes of academic use. However, the firm went on to collect the information of the Facebook friends of those who took the tests, giving them a web of data which included tens of millions of users. This was in violation of Facebook's "Platform Policy", which claimed to only use the data of "Friends" in order to enhance user experience, while prohibiting the sale of this data for advertising. This data was used to build political profiles of Facebook users and Cambridge ANalytica sold this information to advertisers for the purpose of tailoring political ads to Facebook users.
+In total, 50,000,000 people's data were compromised.
+While not a typical information breach in terms of the method through which the data were acquired, it is an example of one of the more modern forms of information breaches which occurs on a more meta level, that is, in regards to the holders of personal data, and was one of the larger instances which helped to open the way for the discussion of many topics of such meta information security.
+As such, the most promising preventative countermeasure to such breaches would most likely be along the lines of regulation of those who control such large amounts of personal data.
+This event reminds me of many of the sorts of privacy breaches that we are beginning to witness in recent years. These are different from the sorts which are brought to mind when considering breaches of privacy, being less about flaws in the inherent structure of personal data storage and more in the lack of familiarity and collective experience with such extensive collections of data, specifically regarding the rights and ownership of the data which is inevitably collected about users.
+This breach served as a wake up call for both consumers and large-scale data analysts. It brought the potential for the abuse of such large accumulations of data into the public eye and reminded the public of the importance of data security on every level.
