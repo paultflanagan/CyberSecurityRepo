@@ -1,0 +1,188 @@
+Challenges of Securing information
+
+~~~~~~~~~~~
+31-Jan-2019
+~~~~~~~~~~~
+Securing information
+    No simple solution
+    Many different types of attacks
+    Defending is often difficult
+    
+Today's Security Attacks
+    Examples
+        Weekly Presentations
+    Remotely controlling a car
+    Tampering with aircraft systems
+    Yahoo accounts compromised by attackers
+//  Subscribe to USCert and NJCCIC mailing lists for quick alerts
+
+Reasons for Successful Attacks  Widespread Vulnerabilities
+    Configuration issues
+    Poorly designed software
+    Hardware limitations
+    Enterprise-based issues
+//  "With security, there's no return on investment"
+//  You only prevent the loss of money, tough for small companies to budget for it.
+
+Difficulties in Defending Against Attacks
+    With every positive advancement in technology comes with a way for attackers to exploit it.
+    
+What is Information Security?
+    Before defense is possible, one must understand:
+        Exactly what security is
+        How security relates to information security
+        
+Understanding "Security"
+    Security is:
+        Goal: to be free from danger
+        the process that achieves that freedom
+    As security is increased, convenience is often decreased.
+        The more secure something is, the less convenient is may become to use.
+        
+Defining Information Security
+    Information security - the tasks of securing information that is in a digital format:
+        Manipulated by a microprocessor
+        Preserved on a storage device
+        Transmitted over a network
+    Information security goal: protect
+    
+    Three types of information protection (often called "CIA"):
+        Confidentiality:
+            Only approved individuals may access information
+        Integrity
+            Information is correct and unaltered
+        Availability
+            Information is accessible to authorized users
+        (Privacy
+            kept private)
+            
+    Policies and Procedures
+        v   v   v
+    People
+        v   v   v
+    Products
+    
+    Products:   For the security around the data, locks to network security equipment
+    People:     Those who implement and properly use product to protect dsts
+    Policies:   Plans and policies for people to follow
+    
+    Asset 
+        item that has value
+    Threat
+        Type of action that has the potential to cause harm
+    Threat Actor
+        Person or element with power to carry out a threat.
+        
+Information Security Terminology
+    Vulnerability
+        Flaws or weakness that allows a threat agent to bypass security
+    Threat vector
+        The means by which an attack can occur
+    Risk
+        situation involves exposure to some type of danger
+    Risk response technical issues:
+        Accept -    risk is acknowledged but no steps are attke en to address
+        transfer -  assign fix to another actor
+        Avoid -     
+        Mitigate
+        
+Understanding the importance of information security
+Information security can be helpful
+
+Preventing data theft
+    often the primary objective of an organization's info security
+    Enterprise data theft involves stealing proprietary business info
+    Personal data theft = credit card numbers
+    
+Thwarting Identity theft
+    Identity theft
+        Stealing another person's personal information
+        Usually using it for financial gain
+        
+Legal Instances
+    HIPAA
+        need to sign forms to disclose info to parents
+        companies can't hold your information after you stop working for them
+    "Sarbox" (2002)
+        Public company accounting reform
+        US federal Law
+        Scandals in large companies 
+    GLBA
+        Must inform users what they intend to do with the data they collect.
+        Pre-GDPR stuff
+    PCIDSS  (2006)
+        Global standard for how companies handle online payment
+        How data is handled when card info is entered, cards are swiped, etc.
+        "PCI Compliant"
+    California's Database Security Breach Notification Act (2003)
+        Any organization in California
+        Storage of unencrypted information, had to notify every effected individual
+        Unanimous vote after a recent breach in 2003
+        Every state has a law similar to this, now.
+    CCPA (2018, 2020)
+        Signed into Law June 2018 by Governor Jerry Brown
+        Will go into effect 01-Jan-2020
+        Must be more transparent in the event of data collection, sale, opportunity for removal, and data discrimination
+        Applies to companies operating in California or deal with the data of California Residents
+        Must "proactively explain privacy notices to consumers when personal information is collected"
+    GDPR (2018)
+        European Data Protection and Fraud Law
+        Addresses export of any personal data outside of EU
+        
+Maintaining Productivity 
+    Post-attack clean up diverts resources away from normal activities
+        Time(!), money, and resources
+        
+Foiling cyberterrorism
+    Cyberterrorism
+        Any premeditated, politically motivated attack against information, computer systems, computer programs, and data
+    Designed to
+        Cause panic
+        Provoke violence
+        Result in financial catastrophe
+    
+    Threat actor - a generic term used to describe individuals who launch attacks agains other users and their computers
+        Most have a goal of financial gain
+        
+Script Kiddies
+    Individuals who want to attack computers yet they lack the knowledge of computers to launch large scale attack
+    
+Hacktivists
+    Attackers who attack for ideological reasons
+    Breaking into a website and changing the contents to make a statement
+    Shutting down a website to halt online activity by an organization
+    
+Nation State Actors
+    commissioned by the governments to attack enemies' information systems
+        May target foreign governments
+        
+Insiders
+    employees, contractors, business partners
+    Over 58% percent of breaches attributed to insiders
+    
+Defending against attacks
+
+Layering
+    Info security should be in layers
+        Single defense is easy to circumvent
+Limiting
+    Limit access to info
+        Reduces the threat against it
+    Only those who must use data should be granted access
+        should be limited to only what they need to do their job
+Diversity
+    Like layering
+    Layers must be different
+    Same techniques will not be effective against all layers
+Obscurity
+    obscure details to outsiders
+    type of computer, operating system versions, etc.
+Simplicity
+    simple to organization, complex to outside
+    Nature of info security is complex
+    
+Frameworks and Reference architectures
+    Industry standard frameworks and reference architectures
+    
+    
+~~~~~~~~~~~
