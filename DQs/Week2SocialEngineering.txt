@@ -1,0 +1,18 @@
+You will be required to post your initial response (200-word min) and reply to two students. "I agree" will not count towards a response. Create a new thread when you initially respond and replies will be done under each students response. 
+
+
+The beginning of Chapter 2 illustrates how a security researcher could manipulate a help desk support technician into compromising security. If you were to create your own social engineering attack, what would it be? Using your own work, school, etc., determine what your goal would be in the attacks, and craft a description of how you would carry the attack out only using social engineering to achieve your goal. Why do you think your attack would be successful? Who would be involved? What would be in the problems with achieving your goal? Why? If you have an example of a time you have utilized SE, explain. 
+
+
+
+Using your own work, school, etc., determine what your goal would be in the attacks, and craft a description of how you would carry the attack out only using social engineering to achieve your goal. 
+I would probably target somewhere on the CCM campus. With a group of friends, we would pose as a group of hired computer technicians, with matching uniforms and the like. This would grant us easy access into several computer rooms. Once we have private access, we would search for things like written down passwords and access codes and other poorly secured sensitive information. Once we have login credentials with high enough privileges, we will have access to personal information of the students stored in the systems. We will then sell this information to advertisers and split the profit.
+
+Why do you think your attack would be successful? 
+Often times, a group of people dressed in uniforms carrying clipboards is enough to seem legitimate to most observers and slip through without a second thought. With access to enough computer rooms I am fairly sure we will eventually find at least one set of admin-level login credentials with which we can gain access to the valuable information.
+
+Who would be involved? 
+Those involved would include myself and several associates to form a group of probably five to ten.
+
+What would be in the problems with achieving your goal? Why? 
+As for problems and obstacles, I understand that CCM takes password security fairly seriously, as evidenced by the number of posters hung in the halls and classrooms. However, all it takes is one set of credentials for the plan to work and I'm sure that such cyber-security campaigns do not have 100% success rate.
