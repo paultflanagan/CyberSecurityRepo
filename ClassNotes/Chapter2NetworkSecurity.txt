@@ -1,0 +1,137 @@
+Network Security
+
+~~~~~~~~~~~
+07-Feb-2019
+~~~~~~~~~~~
+Objectives:
+    Define Malware
+    List different types of malware
+    identify payloads of malware
+    describe the types of psychological social engineering attacks
+    explain physical social engineering attacks
+    
+Attacks using malware
+    Enters without knowledge or consent
+    Can be malicious or just annoying
+    "Payload": the offending script which causes the malware to be performed
+    
+    Can be classified by using primary trait, or goal:
+        Circulation:            Spread rapidly
+        Infection:              how it embeds
+        Concealment:            avoid detection
+        Payload capability:     the end result is the most invested aspect
+        
+    Circulation:
+        Main types: Viruses and Worms
+        
+        Virus:
+            Computer virus: code which reproduces itself many times on the computer
+            Program Virus:  Stored in .exe
+            Macro:          Series of instructions groups as a single command
+            
+            Most go to great lengths to avoid detection (virus armoring)
+                Appender infection:     puts code at the very end of program, inserts jump to bottom command
+                    Not particularly armored
+                Swiss Cheese infection: viruses inject themselves into executable code along with decrypting steps
+                    code is scrambled to make more difficult to detect
+                Split infection:        Virus Code itself is split up across the host code 
+                    different strengths to Swiss Cheese.
+            
+            Perform two actions:
+                unload payload, reproduce itself only within the host computer
+                Needs human interaction to spread.
+                
+        Worm:
+            Uses computer network to replicate
+                Sends copies of itself to other systems across the network.
+            Exploits vulnerabilities in applications used by the network.
+            Automatically spreads itself within the system across the 
+            
+    Infection:
+    
+        Trojan:
+            contains hidden code contained within a differently advertised program
+            (Like McAfee.)
+            Special Type:
+                RAT (Remote access Trojan) allows access to hacker from remote location
+                
+        Ransom ware:
+            locks up computer to hold computer hostage until ransom is paid
+            Advice is to not pay the ransom: emboldens the hackers and you may not even get your data back.
+            Stresses the importance of Back-ups!
+            
+        Crypto-malware
+            More malicious form of ransom ware which encrypts all files on a device so that none can be opened
+            Once infected:
+                connects to the threat actor's Command and Control (C&C) server to receive keys for encrypting and decrypting
+                The decrypting key is sent once the ransom is paid
+                
+    Concealment:
+        
+        Rootkits:
+            hides itself by altering the traces of log-ins records, log entries.
+            
+            
+    Payload Capabilities
+        Contains the destructive software
+        Primarily to collect data, delete data, modify system security settings, and launch attacks.
+        
+        Collect data:
+            Spyware:    collects info without consent
+            Keylogger:  logs keystrokes to scan for credit card numbers, passwords, other credentials
+                        Can be a small hardware device or software devices
+                            Software does not require physical access
+            Adware:     Delivers ad content at unexpected and unwanted times, typically banners and pop ups
+            
+        Delete data:
+            Logic Bomb: code that lies dormant until it is triggered by a certain logic event, like a certain date
+                        Difficult to detect, often found in files which are not routinely scanned.
+                        
+        Modify settings:
+            Backdoors are created to let hacker return later easier
+            
+        Launch Attacks:
+            Botnets: Spam, Spreading Malware, Manipulating online polls, Denying services at whim of Bot Herder.
+            
+Social Engineering Attacks
+    means of gathering information for an attack relying on the weakness of humans.
+    
+    Psychological Approaches
+        goal is to persuade victim to provide information or take action
+        In-person techniques:
+            provide a reason
+            project confidence
+            use evasion and diversion
+            make them laugh
+        Psychological approaches often involve:
+            impersonation, phishing, spam, hoaxes, and watering hole attacks.
+            
+        Impersonation:
+            help desk support technician, example.
+            
+        Phishing:
+            sending email claiming to be from legitimate source
+            tries to trick user into giving private info
+            emails and fake websites difficult to distinguish from legitimate ones
+            Variations:
+                spear phishing: targets specific users
+                whaling:        targets the "big fish"
+                Vishing:        instead of email, uses phone, voice phishing
+            97% of all attacks start with phishing
+            
+        Spam:
+            quantity over quality.
+            
+        Hoaxes:
+            false warning, usually disguised as IT
+            Tries to get victims to change configuration settings on your PC.
+            
+        Watering Hole attacks
+            directed towards small groups of individuals visiting a common website.
+            
+    Physical Procedures
+        Tailgating:         Following someone closely to get into a secured door, watching over shoulder
+        Dumpster Diving:    digging through trash to find personal info
+        
+        
+~~~~~~~~~~~
