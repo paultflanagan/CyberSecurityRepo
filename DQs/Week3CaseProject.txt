@@ -1,0 +1,36 @@
+You will be required to post your initial response (200-word min) and reply to two students. "I agree" will not count towards a response. Create a new thread when you initially respond and replies will be done under each students response. 
+
+
+Choose one of the following case projects from the back of Chapter 5 (page 229): 
+
+5-1
+5-2
+5-3
+5-4
+5-5
+Where the case asks "write one paragraph, one page, etc" please ignore that. Just respond to the questions the way you normally would in a discussion board. Use the prompts as your guidance.
+
+Case Project 5-4: SQL Injection Attacks
+SQL injection attacks continue to be a significant attack vector for threat actors. Use the Internet to research these attacks. What are some recent attacks that have been initiated by SQL injection? How were they conducted? What defenses are there against them? Write a one-page paper on your research.
+
+
+
+Case Project 5-4: SQL Injection Attacks
+
+
+SQL Injection attacks occur when a threat actor manages to gain access to the target's SQL data through injecting SQL commands into certain available entry fields. This is most possible when the targeted software fails to filter and sanitize user input data, searching for invalid escape characters which would allow a user to exit the entry field data and input harmful SQL commands which can steal or damage the target's stored tables and information. While this has been a well known and documented potential flaw for as long as SQL has seen mainstream usage, some companies still fall prey to it, usually due to their lack of basic security.
+
+What are some recent attacks that have been initiated by SQL injection? 
+Some recent attacks initiated by SQL injection include the attack on Maph Editora, a Brazilian finance consultation firm, which resulted in the leak of the email addresses and passwords of 138 customers, the attack on Epic Games, which resulted in access to player accounts and credit card info, and the attack on Lenovo, which resulted in the compromising of over 1 million users' data.
+
+How were they conducted? 
+In the cases of Maph Editora and Epic Games, the threat actors were able to abuse the poorly protected input fields found on the companies' websites to inject SQL commands which returned the contents of their online data tables containing user information. In the case of Lenovo, the threat actors found an outdated product ID which, when entered into the Lenovo website, brought them to a rarely used error page. Once on the less secure page, the threat actors were able to interact with an unguarded entry field to inject their SQL commands and obtain over 20GB of user data.
+
+What defenses are there against them? 
+The best defense against SQL Injection Attacks is taking the time and care to ensure that all instances of user input when dealing with SQL stored data is thoroughly cleansed before being processed. In the most basic form, this includes restricting the types of characters allowed in user entry fields, like disallowing escape characters and closing punctuation characters. Alternatively a programmer can write an input processing script which analyzes input data from users and checks for any compromising text before allowing it into the SQL system. Preventing this sort of breach is usually not too complicated and generally speaks to a lack of effort on the part of the target rather than particular cleverness from the threat actor.
+
+
+Sources:
+https://roguemedialabs.com/2019/02/01/maph-editora-informacoes-trabalhistas-e-tributarias-hacked-by-darkness-ghost/
+https://motherboard.vice.com/en_us/article/vba5nb/fornite-login-hack-epic-games-website
+https://roguemedialabs.com/2019/01/01/lenovo-website-servers-haxxed-data-of-1-million-users-compromised-by-new-world-hackers/
