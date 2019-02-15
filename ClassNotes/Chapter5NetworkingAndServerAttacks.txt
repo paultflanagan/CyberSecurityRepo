@@ -1,0 +1,101 @@
+Networking and Server Attacks
+
+~~~~~~~~~~~
+14-Feb-2019
+~~~~~~~~~~~
+Server Based Attacks
+    Man in the Middle
+        Threat actor intercepts all communications between two or more parties and corrupts the data
+        Denies Alice's credentials, receives all of Bob's information
+    Man in the Browser
+        intercepts communications, but between browser and the underlying computer
+        usually enters by way of a Trojan
+        captures all data from the fields
+        potential to modify the data as well
+        less of a profile, distributed through a Trojan so harder to identify, can lay dormant for months
+    Replay
+        Makes copy of transmission before allowing it to pass through to the target
+        Uses the copy later
+        Able to easily take login credentials
+    Poisoning
+        Introducing a substance that harms or destroys
+        ARP Poisoning
+            Address Resolution Protocol
+            imitates another computer by changing its MAC address.
+            MAC Addresses stored in cache for future reference
+        DNS Poisoning
+            Domain Name System is the current basis for name resolution to IP Address
+            Used to redirect computers to chosen address
+            Masks itself as the target computer to send it to its chosen addresses
+        Privilege Escalation
+            Access rights are privileges that are granted to users
+            Exploits vulnerabilities to gain access to resources usually restricted
+            Vertical and Horizontal: Vertical = higher user, Horizontal = same user
+Server Attacks
+    Compromised server can provide threat actors with privileged contents and provide opening to attack any devices on the server
+    
+    Denial of Service (DoS)
+        deliberate attempt to prevent authorized users from accessing system by overwhelming with requests
+        floods with traffic to make inaccessible to public
+        SYN flood attack takes advantage of procedures used for initiating a connection
+        
+    Web Server Application Attacks
+        More difficult to secure a web application than protecting other systems
+            Internet is constantly changing and much larger than other systems
+        Web server takes its application data through many different Application servers, and them from other Database servers
+        Even if you're just in control of the Web server, it has vulnerabilities stemming from each of these contributing servers 
+            You have minimal control over these, and they can impact the security of the Web server.
+            
+    Cross Site Attacks
+        Cross-Site Scripting (XSS) attacks intercept the information transfer with a malicious website
+        the threat actor's instructions are sent to the user and compromises the victim's data
+        
+    Injection Attacks
+        Introduces new and tailored input to exploit vulnerabilities, often in input fields.
+        Most Common: SQL Injection
+        
+    Hijacking
+        Several server attacks are the result of threat actors commandeering a technology and then using it for an attack
+        Session Hijacking
+            attacker attempts to impersonate user by stealing or guessing session token
+            (Session token = unique, random string assigned to an interaction between user and web app.)
+            
+        URL Hijacking
+            User is directed to a fake look-a-like URL (like "googel.com") resulting from a typo, and the page is filled with ads
+            Threat actors are also registering domain names that are one bit different (called "bitsquatting")
+            
+        Domain Hijacking
+            domain pointer that links a domain to a specific web server is modified to point to a different server by a threat actor.
+            
+        Clickjacking
+            Tricking user into clicking a link that is other than what it appears to be
+            
+        Overflow attacks
+            Designed to "overflow" areas of memory with instructions from the attacker, 
+            Buffer overflow, Integer overflow, etc.
+            
+        Advertising Attacks
+            "Malvertising"
+            Uses third party advertising networks to distribute malware to users visiting well-known sites
+            
+        Browser Vulnerabilities
+            Extensions, Add-ons...
+            Scripting Code
+                Adds dynamic content
+                JavaScript, for example
+                Embedded in HTML docs, can introduce security concerns
+                Can capture and transmit user information due to the access rights granted by the browser by default
+                if the security mechanisms are not strong enough, the JavaScript can run in the background and execute various scripts
+            Extensions
+                expand the normal capabilities of a web browser
+                Most are written in JavaScript
+                "Browser independent"
+            Plug-ins
+                Adds new functionality, a single plug-in can be used on different browser
+            Add-ons
+                adds greater degree of functionality
+            
+            Due to the risks of these features, efforts are being made to reduce dependence on these.
+            
+            Plug ins link to external programs (Outside of the web browser), Add-ons add functionality to the browser itself (Part of the web browser)
+            
