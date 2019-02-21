@@ -1,0 +1,20 @@
+You will be required to post your initial response (200-word min) and reply to two students. "I agree" will not count towards a response. Create a new thread when you initially respond and replies will be done under each students response. 
+
+
+Pick one of the two questions to answer: 
+
+1.  DLP - Research data loss preventions options from different vendors. Compare and contrast the options out there. Based on your research, which would you choose? What features make this product optimum? Why? Would your decision change if it was a personal computer vs. a corporate?
+2.  Network Firewall - Research different network firewall options. Note if there are rule-based or application-aware, perform stateless or stateful packet filtering, what additional features they include, costs. Which would you recommend? Why? Would your decision change for a personal/corporate computer?
+
+
+
+Question 1: DLP
+
+Research data loss preventions options from different vendors. Compare and contrast the options out there. Based on your research, which would you choose? 
+The five DLP services I looked into were Symantec Data Loss Prevention, SecureTrust Data Loss Prevention, Total Protection for Data Loss Prevention, Check Point Data Loss Prevention, and Digital Guardian Endpoint DLP. Out of each, my opinion is that Symantec offers a comprehensive package geared more towards business networks, SecureTrust offers automatic threat blocking and a plethora of settings and features, McAfee offers a stronger emphasis on forensic analysis of possible threats, Check Point is a lighter suite with simpler features and pre-configured settings along with Data Loss Education content, and Digital Guardian has autonomous features and some of the strongest flexibility and scalability available, along with support for Windows, Mac, and Linux. If I had to pick a DLP provider, I would likely choose between Check Point and SecureTrust.
+
+What features make this product optimum? Why? 
+Simplicity is the reason I would choose Check Point, not being someone with much extensive knowledge of DLPs, and I would consider SecureTrust for its flexibility and autonomous functionality once I had learned more about DLP operation.
+
+Would your decision change if it was a personal computer vs. a corporate? 
+I definitely would not recommend Check Point for corporate use, since its simplicity would be a risk factor, and I would not recommend Symantec for personal use due to it being strongly designed for corporate use.
