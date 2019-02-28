@@ -1,0 +1,12 @@
+You will be required to post your initial response (200-word min) and reply to two students. "I agree" will not count towards a response. Create a new thread when you initially respond and replies will be done under each students response. 
+
+
+1. Discuss possible strategies for using “as a service” services in an IT organization.
+
+2. Discuss possible virtualization strategies and advantages.
+
+
+
+2.  Discuss possible virtualization strategies and advantages.
+At my most recent internship, I worked as a QA tester for the software and interface of a pharmaceutical product identification system. While testing builds of the product, I would use VMWare to manage most of my testing. I was responsible for setting up and accessing virtual machines emulating different versions of operating systems and running different releases of the product to ensure that the software ran correctly on each intended combination of operating system and product versions. The VMWare server I ran was responsible for emulating and monitoring the different machines as they performed their scheduled automated testing procedures. 
+From an ease of use standpoint, choosing to use virtual machines offered many benefits over physical boxes (at least, once I got familiar with using VMWare): I could emulate multiple machines to whatever specifications I needed, within the reasonable limits of the network bandwidth I was allotted, the software made the monitoring of the machines' states easier with its built-in functionality, and its snapshot ability allowed me to jump back and forth between different software version and file system states. In terms of security, the information stored on the virtual machines was kept behind the firewall protection bottleneck of the server itself, and the server's physical location was secured in a locked room which required authorize key card clearance to access.
