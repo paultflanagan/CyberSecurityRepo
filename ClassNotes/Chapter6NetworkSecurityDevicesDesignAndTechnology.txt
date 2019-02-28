@@ -1,0 +1,131 @@
+Network Security Devices, Design, and Technology
+
+~~~~~~~~~~~
+21-Feb-2019
+~~~~~~~~~~~
+Security through network devices
+    Can be done through standard devices as well as specially designed hardware
+    
+Standard Network Devices
+    Split into 7 layers
+    Devices can be classified by which layers they function within
+    Each layer cooperates with adjacent layers
+    Improper configuration of devices introduce vulnerabilities.
+    
+    Bridges
+        Hardware device or software that joins two separate computer networks to enable communication between them
+        most OSs allow software bridges to connect two LANs, can create vulnerabilities
+        
+    Switches
+        connects two network hosts intelligently
+        learns which device is connected to each port
+        stores these MAC addresses in a list
+        Like a smarter form of a bridge
+        Can be configured to be resistant to loops, floods, and broadcast storms
+        Threat Actors perform MAC flooding attack done by overflowing the switch with spoofed Ethernet frames that contain different source MAC addresses, causing an echoing clogging of the bandwidth
+        Flood Guards can limit the number of MAC addresses that can be learned to prevent this.
+        
+    Routers
+        Forward Packets across different computer networks
+        
+    Load Balancers
+        Evenly distribute work across a network
+        Allocate requests among multiple devices.
+        
+        Optimizes bandwidth usage of computers on a network
+        Achieved through software or hardware devices
+        Grouped into two categories, Layer 7 and Layer 4
+        Different scheduling protocols can be used:
+            Round Robin
+            Affinity
+            Explicitly assigned
+            
+    Proxies
+        several types used in networking
+            Forward proxy
+            Application / multipurpose proxy
+            Reverse proxy
+            Transparent proxy
+        Advantages:
+            Stronger Security: connections are masked better, your own personal IP address is not used
+        
+Network Security Hardware
+    Firewalls
+        software- or hardware-based (hardware is more secure but more expensive and harder to setup)
+        Both types inspect packers and either accept or deny entry
+        All modern OSs include a software firewall ("host-based firewall")
+        Hardware firewalls are also separate from the host computers, so that if something goes wrong on the host, the hardware firewall is not immediately at risk like a software firewall would be
+        
+    Network-Based Firewalls
+        Methods of firewall packet filtering
+            Stateless packet filtering: makes choices based on the actual content of the received data
+            Stateful packet filtering:  depends on where the content came from, the connection
+        Firewall actions on a packet:
+            Allow:  info goes through
+            Drop:   No from both
+            Reject: No to receiver, send info back to sender
+            
+        Rule-based firewalls
+            performs actions based on set rules
+        Application aware firewalls
+            blocks certain types of applications
+        Web application firewalls
+            blocks specific types of HTTP info
+            
+    Virtual Private Network (VPN)
+        Types:
+            Remote access:  User to LAN
+            Site to Site:   between multiple sites
+            Always on:      from anywhere
+        
+        VPN concentrator
+            aggregates hundreds of VPN connections
+        When using a VPN, two options
+            all traffic sent to the VPN concentrator and protected
+            only some is routed over the secure VPN, while other traffic directly accesses the Internet
+            
+    Network Intrusion Detection and Prevention
+        Intrusion Detection System (IDS) detects attacks as they occur
+        
+        Two types: 
+            Host intrusion detection system (HIDS)
+                software based
+                detects attack as it occurs
+                    installed on each system needing protection
+                monitors
+                    system calls and file system access
+            Network intrusion detection system (NIDS)
+                watches for attacks on the network
+                is installed on firewalls and routers
+                gathers info and reports back to the central device
+                can sound alarms and log events
+                
+    Intrusion Prevention Systems
+        IPS
+            monitors network traffic to immediately block malicious attacks
+            
+    Security and Information Event Management (SIEM)
+        consolidates real-time monitoring and management of security info
+        analyzes and reports on security events
+        
+    Demilitarized Zone
+        location that is separate so that customers do not take the same paths as employees
+            increases security
+    
+    Network segregation
+        physical network segregation: isolations the network so that it is not accessible by outsiders
+        Virtual LAN (VLAN)
+        
+Security through Network software
+    Network Access Control (NAC)
+        examines current state of a system or network device before it can connect to the network
+        Goal: prevent suspicious users from accessing the rest of the network
+    
+    Data Loss Prevention
+        system of security tools designed to recognize and identify data that is critical and ensures that is is protected
+        most use content inspection
+        when policy violation detected, it is reported back to the DLP server
+        
+        
+        
+~~~~~~~~~~~
