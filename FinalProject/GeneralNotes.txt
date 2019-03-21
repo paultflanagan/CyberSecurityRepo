@@ -1,0 +1,191 @@
+Final Project - General Notes
+
+###########
+31-Jan-2019
+###########
+Easier to do not at your own house.
+Ideas for subject
+	Maybe go to GenSpace?
+        might be fun, easy, dad would be enthusiastic about it I'm sure
+        
+Finals have been 40 pages, not expecting 40 pages. 
+20 pages..?
+    Will have pictures, screen shots...
+    Outline itself will be ~2 pages.
+    Don't freak out about the suggested length.
+
+DON'T WAIT until the week before
+
+//  At least talk to dad about it
+//      say I'm thinking about visiting GenSpace a couple of times for the project 
+//      Will also give me a chance to get a better idea of what the project will entail.
+
+An example (which we reviewed) will be uploaded.
+
+Outline at least 3 devices.
+Again, don't stress over the length of the paper.
+
+First deadline (Summary, Outline, Rough Draft) due by 07-Mar-2018
+Final due last 2 weeks of class
+
+
+"Remediations" do not need to be short term, they can be long term
+ex: Short term: wi-fi has no password:      set a password
+    Long term:  house has no front door:    install one
+    
+    
+    
+###########
+14-Feb-2019
+###########
+You will have to have some sort of presentation on your project
+will not be graded on the actual presentation, you will just have to give one.
+
+
+
+###########
+21-Feb-2019
+###########
+Rough draft due in two weeks
+Parts 1, 2, and 3 should be completed
+    Summary, outline / table of contents, and rough draft
+        Summary - 1 paragraph of background
+        Outline - 5 topics under each of the 6 main topics (minimum 30 total)
+            1.  Network / Wireless Security
+            2.  PC / Server / Device Security
+            3.  Backups / DR
+            4.  AAA
+            5.  Physical Security
+            6.  User Education
+        Rough Draft working through some of the 30 topics - the more work you put into this now, the less you will have to have done the second half of the semester.
+    
+    Format of whole paper:
+        Title Page
+        Outline / Table of Contents
+        Introduction
+            Scope (in-out)
+        Summary
+        Top 5 list (Recommendations)
+        Site Activities Schedule (DATES)
+        Devices in Scope
+    
+    Top 5 List each has 5 sections:
+        Explanation
+        Risk   
+        Observation / Examples
+        Documentation (pictures, etc.)
+        Recommendation
+        
+        
+Plan to talk to Dad more about any chances to come and visit GenSpace
+
+
+
+###########
+05-Mar-2019
+###########
+Talked with Dad, am visiting GenSpace to do the project.
+Let's put together a draft now so that I know what to ask about and to look for when I get there and don't waste too much time
+
+Creating ~/FinalProject/EarlyPlanning.txt
+Moving this text file to ~/FinalProject/
+
+Adding the provided help documents from online into ~/FinalProject/
+
+Need, for Thursday, the Summary, the Outline, and the Rough Draft.
+
+
+Include the following information at the top of each section page:
+
+    Class ID
+    Semester
+    Student Name
+    Customer description in one or two sentences
+    
+    
+    Class ID:               CMP-124
+    Semester:               Spring 2019
+    Name:                   Paul Flanagan
+    Customer Description:   Michael Flanagan: current president of the Board of Directors at GenSpace, a community genetic engineering lab in NYC.
+
+
+
+Summary:
+Write a one or two paragraph summary on your security analysis. 
+Briefly explain who your customer is, what type of network they have, what some of your key concerns are. 
+Include FIVE or more questions that you want to ask the customer about their network. 
+These should be questions that will give you information that will help you prepare for the analysis. 
+If YOU are the customer, write down five questions that you want answered by the security analysis.
+
+
+The Customer in this project is my father, and I will be visiting GenSpace, the lab in New York City where he works.
+From earlier questions, I know that at GenSpace the researchers primarily use a wi-fi network for internet and file access.
+I plan to find out if he has any ethernet-connected devices, what sort of wi-fi security measures he employs, whether their network uses a firewall, how they typically handle file transferring, and which individuals have different access rights and privileges over their network.
+
+
+
+Outline:
+Consider the following Security Analysis categories that were discussed in class and are contained in the security analysis template:
+    Network/Wireless Security
+    System (PC/Server) Security
+    Backups/Disaster Recovery
+    Physical Security
+    AAA (Authorization/Authentication/Accounting)
+    User Education
+For EACH of the above categories, create five to seven topics/questions in each category that you will analyze for your customer.
+Then, for each topic/question, write a brief action item describing how you will approach that topic for your customer.
+
+
+Network/Wireless Security
+    1.  Does wi-fi have password?
+    2.  What sort of network equipment is used?
+    3.  How many devices are permanently connected to the network?
+    4.  Does the network possess any hardware or software firewall?
+    5.  Are their protocols for planned network maintenance?
+    
+System (PC/Server) Security
+    1.  How is it decided whether a device can connect to the network?
+    2.  What software, e.g. firewalls, is used to protect individual devices?
+    3.  How often do common devices undergo software updates?
+    4.  What is the oldest device connected to the network?
+    5.  How many devices are permanently connected to the wi-fi?
+    
+Backups/Disaster Recovery
+    1.  How is vital data stored on site?
+    2.  Is any backup software used?
+    3.  How often is data backed up?
+    4.  Are there off site backup locations?
+    5.  How often are off site backups updated?
+    
+Physical Security
+    1.  Where is router stored, and how is it protected?
+    2.  Where are any permanently wi-fi connected devices stored, and how are they protected?
+    3.  Who has access to these locations?
+    4.  Are there any publicly accessible ethernet ports?
+    5.  How old are the locks on the building?
+    
+AAA (Authorization/Authentication/Accounting)
+    1.  In what ways can users access the network?
+    2.  How are users of the network identified and categorized?
+    3.  What sorts of privileges do different users have?
+    4.  How is user activity tracked and monitored?
+    5.  Is any AAA software being used for the network?
+    
+User Education
+    1.  Is there a standard procedure to follow when users transfer data over network?
+    2.  Do users understand common sources of threat risks?
+    3.  Are users encouraged to exercise secure data management practices?
+    4.  Has there been a history of previous data leaks at this network?
+    5.  What is the contingency plan for handling a data leak?    5.  
+    
+    
+    
+Rough Draft
+It is recommended that you try to write about at least one potential or actual vulnerability under each category for this rough draft. 
+The more you have completed, the more useful my feedback will be.
+
+Sounds like we don't need to have all five items under each topic for the midterm?
+It's possible that this is referring to a different aspect, though
+
+
+

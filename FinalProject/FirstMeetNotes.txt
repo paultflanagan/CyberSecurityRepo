@@ -1,0 +1,393 @@
+Final Project - First Meet Notes
+
+###########
+05-Mar-2019
+###########
+Location is in Sunset Park of Brooklyn in New York City.
+Laboratory is in an apartment building housing different businesses in roughly [room dimensions] suites.
+Laboratory also offers classes [are these on location or somewhere else? If on location I may want to look at that area as well.]
+
+****
+Item 1: Wi-fi network
+****
+
+Preliminary wireless network scan shows several [20+] networks within range
+Presumed local networks are "Genspace" and "Genspace_5GHz"
+    My assumption is that the latter broadcasts on a different frequency range
+Both are secured with a password.
+
+Interesting Note:
+All of the hardware for the wi-fi network is behind a bunch of stacked chairs, which actually makes it interestingly difficult to access [picture taken]
+    Combined with the relative smallness of the laboratory, this makes inconspicuously accessing the hardware difficult to do
+    Chances are that a non-staff visitor would be unable to physically access the routers without getting notice of staff member.
+    
+    
+Wi-Fi Network Hardware:
+Router:             Linksys Max-Stream AC5400 Tri-Band Wi-Fi Router (EA9500)
+    Features:           Dual Band [explains the standard and 5GHz networks]
+    
+Telephony Modem:    Arris TM804 DOCSIS 3.0 8x4 Embedded Multimedia Terminal Adapter (E-MTA)
+
+Cable Gateway:      Arris DG1670
+    Features:           3x3:3@2.4 GHz and 3x3:3@5GHz MIMO with Beamforming for enhanced coverage and performance
+                        16x4 Channel Bonding
+                        
+Cable Modem:        Ubee DDM3521
+
+
+
+
+    
+Passwords:
+Password for "Genspace" network is located on a printed piece of paper above a whiteboard in the middle of the main room
+Password for "Genspace_5GHz" network is not displayed, but I have found that it has the same password as "Genspace"
+
+    
+    
+Wi-Fi Given Properties:
+[Network and Internet Settings > Show Available Networks > Properties]
+SSID:	Genspace
+Protocol:   	        802.11n
+Security type:  	    WPA2-Personal
+Network band:   	    2.4 GHz
+Network channel:    	11
+IPv6 address:   	    2604:2000:7041:c4f0:1928:541f:188d:7b33
+IPv4 address:   	    192.168.1.117
+IPv4 DNS servers:	    192.168.1.1
+Manufacturer:	        Qualcomm Communications Inc.
+Description:	        Killer Wireless-n/a/ac 1525 Wireless Network Adapter
+Driver version:	        4.0.3.262
+Physical address (MAC):	70-77-81-5D-68-2F
+
+SSID:	Genspace_5GHz
+Protocol:	            802.11ac
+Security type:	        WPA2-Personal
+Network channel:    	36
+Network band:	        5 GHz
+IPv6 address:	        2604:2000:7041:c4f0:1928:541f:188d:7b33
+IPv4 address:	        192.168.1.117
+IPv4 DNS servers:	    192.168.1.1
+Manufacturer:	        Qualcomm Communications Inc.
+Description:	        Killer Wireless-n/a/ac 1525 Wireless Network Adapter
+Driver version:	        4.0.3.262
+Physical address (MAC):	70-77-81-5D-68-2F
+
+
+Amount of network users
+    typical day probably 7 or 8 (2-4 non staff plus ~5 staff). Can be up to 30, typically 15, on days with events such as classes, lectures, etc.
+    
+    
+Probably got enough preliminary information about the wi-fi network now.
+Let's move on to the Topic Items
+
+
+Network/Wireless Security
+    1.  Does wi-fi have password?
+            Checked in Network and Sharing Center.
+            Yes, wi-fi networks have passwords.
+            password is displayed in middle of room
+    2.  What sort of network equipment is used?
+            Found Corner with wi-fi network equipment
+            Moved chairs concealing them and looked up product IDs
+            Lab has Linksys Max-Stream AC5400 Tri-Band Wi-Fi Router (EA9500),
+                    Arris TM804 DOCSIS 3.0 8x4 Embedded Multimedia Terminal Adapter  (E-MTA) Telephony Modem,
+                    Arris DG1670 Cable Gateway,
+                    Ubee DDM3521 Cable Modem
+    3.  How many devices are typically [changed from "permanently"] connected to the network?
+            Asked staff member about typical network usage.
+            "typical day probably 7 or 8 (2-4 non staff plus ~5 staff). Can be up to 30, usually ~15, on days with events such as classes, lectures, etc."
+    4.  Does the network possess any hardware or software firewall?
+            [None visible, will ask at later time.] [answered #1]
+    5.  Are there protocols for planned network maintenance?
+            [ask] [answered #2]
+    
+System (PC/Server) Security
+    1.  How is it decided whether a device can connect to the network?
+            Found wi-fi password taped to wall in center of room
+            Presumably anyone allowed on the premises is allowed on the wi-fi
+    2.  What software, e.g. firewalls, is used to protect individual devices?
+            [ask]
+    3.  How often do common devices undergo software updates?
+            [ask] [answered #4]
+    4.  What is the oldest device connected to the network?
+        [Don't really like this question, might substitute for:
+        What lab equipment is connected to the network?]
+            [ask] [answered #5]
+    5.  How many devices are permanently connected to the wi-fi?
+            I notice one desktop setup in one corner
+            I will look into the lab later and see if any equipment is wi-fi connected.
+    
+Backups/Disaster Recovery
+    1.  How is vital data stored on site?
+            [ask [answered $6]
+    2.  Is any backup software used?
+            I think dad has mentioned Google Drive
+            [ask] [answered #7]
+    3.  How often is data backed up?
+            [ask] [answered #8]
+    4.  Are there off site backup locations?
+            [ask] [answered #9]
+    5.  How often are off site backups updated?
+        [Might have to come up with an alternate if 4. is not true]
+            [ask]
+            
+    
+Physical Security
+    1.  Where is router stored, and how is it protected?
+            Network hardware is stored in corner by door behind chair stacks
+            Interestingly, the chair placement does a good job of securing the physical network components
+            because the location is two open rooms, attempting to inconspicuously access the hardware would be difficult.
+            Chances are that a non-staff visitor would be unable to physically access the routers without getting noticed by staff member.
+    2.  Where are any permanently wi-fi connected devices stored, and how are they protected?
+            One is stored in a corner [I can inspect it later]
+            any others which may be in the lab area I can check later
+    3.  Who has access to these locations?
+            Desktop is in main area, access to anyone who gets in the door.
+            Lab is behind glass doors which may or may not lock [ask]
+    4.  Are there any publicly accessible ethernet ports?
+            Yes, attached to the modems
+    5.  What sort of locks are on the building?
+            Suite has digital locks opened by ID cards which are held by staff.
+    
+AAA (Authorization/Authentication/Accounting)
+[Not feeling excited for this part. Not entirely sure on what this should entail exactly, but I'll go with what I've come up with and see what the professor says when I hand in the rough draft.]
+    1.  Is any AAA software being used for the network?
+    2.  In what ways can users access the network?
+    3.  How is access to shared resources (e.g. laptops) controlled?
+    4.  What sorts of privileges do different users have?
+    5.  How is user activity tracked and monitored?
+    
+User Education
+    1.  Is there a standard procedure to follow when users transfer data over network?
+            preliminarily I know that Google Drive is used most often for data transfer
+    2.  Do users understand common sources of threat risks?
+            [ask]
+    3.  Are users encouraged to exercise secure data management practices?
+            [ask]
+    4.  Has there been a history of previous data leaks at this network?
+            [ask]
+    5.  What is the contingency plan for handling a data leak?
+            [ask]
+            Regardless of the answer, I will suggest that transparency is important to establish in such an event so that affected parties can respond correctly.
+    
+    
+    
+****
+Questions to ask (Could not find by myself)
+****
+1.  What firewall software or hardware is present?
+        no shared firewalls, all on personal device level
+2.  Do you have protocol for planned network downtime?
+        none, occasional disturbances, 
+3.  What sort of firewalls do the staff users of the network have?
+        
+4.  Are commonly used devices kept updated?
+        Lab has shared laptops which run Ubuntu and are set to check for updates on a daily basis.
+        "Security Updates" are set to be automatically downloaded and installed when detected.
+        [screenshot taken]
+5.  What lab equipment is connected to the network?
+        Lab has a robotic liquid transporter for handling pipetting of fluid samples
+        Accessible over wi-fi network via a tailored driver/application available for installation online.
+        
+6.  Is any vital, crucial, or important data handled in the lab?
+        sensitive data is not stored on site. it is handled by a suite of software.
+        make use of JustWorks Software, for Social Security, HR payments
+        Xero software, sensitive banking info
+7.  Is any backup software used?
+        Other than the aforementioned software, Google Drive is primarily used for standard data sharing
+8.  How often is the data backed up?
+        [as often as the services do, I can check this online]
+9.  Are any off-site backup locations used?
+        No physical off-site locations, only the online and cloud based ones.
+
+
+****
+Larger note:
+the scale provides an interesting perspective: where most cases have focus on larger corporate businesses, a smaller community lab is a unique case but one where data and network security still applies
+****
+
+So that leaves mostly just the AAA and User Education sections. I think I want to barrel through the AAA ones pretty close to as is, and then mostly rewrite the User Education ones, maybe at the very least numbers 2 and 3, because the way they are currently isn't a best fit for the actual structure of the network.
+
+Reworked User Education Topics:
+    1.  What features of the network are used the most by the users?
+            [assumed just internet access, but ask about local email server, local file sharing ("Air dropping") just in case]
+    2.  Is there a standard practice when transferring data between staff members?
+            Yes: Google Drive
+            Having a standard, invested system for the transfer of data helps to normalize the level of security surrounding these interactions and as a result strengthens their integrity.
+    3.  What threats are users most vulnerable to?
+            [ask]
+    4.  Has there been any history of previous data leaks at this network?
+            [ask]
+    5.  What is the contingency plan for handling a data leak?  
+            Regardless of the answer, I will suggest that transparency is important to establish in such an event so that affected parties can respond correctly.
+            [ask]
+
+
+****
+Questions to ask, part B
+****
+1.  What firewall software, if any, is available on the public laptop devices?
+    
+2.  Is any form of AAA software being used for the network?
+
+3.  How are users able to access the network (strictly wi-fi, ethernet, etc.)?
+
+4.  What sorts of privileges do different users have?
+
+5.  Is user access and activity monitored?
+
+6.  How is access to shared resources (e.g. laptops) controlled?
+
+7.  What features of the network are used most by the users?
+        [assumed just internet access, but ask about local email server, local file sharing ("Air dropping") just in case]
+8.  What threats are users most vulnerable to?
+
+9.  Has there been any history of previous data leaks at this network?
+
+10. What is the contingency plan for handling a data leak?
+        Regardless of the answer, I will suggest that transparency is important to establish in such an event so that affected parties can respond correctly.'
+        
+        
+Once I get answers to these I think I may be either done or close to being done with the data collection portion.
+But for now, Dad is working in the lab and there is a class going on in the main room, so I'll see what else I can get done in the meanwhile.
+
+I'm still not totally clear on what exactly is entailed by the "Rough Draft" section
+
+My fear is that it's just an umbrella term for everything else I need to have done for the project.
+
+I've read the project assignment document again and I think there is one more set of things I need to get done: the Wireless Range Analysis, Internal and External Port Scanning, and the Action Plan.
+
+Wireless Range Analysis:
+
+
+
+Port Scanning:
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-03-05 17:30 Eastern Standard Time
+
+NSE: Loaded 148 scripts for scanning.
+
+NSE: Script Pre-scanning.
+
+Initiating NSE at 17:30
+
+Completed NSE at 17:30, 0.00s elapsed
+
+Initiating NSE at 17:30
+
+Completed NSE at 17:30, 0.00s elapsed
+
+Initiating ARP Ping Scan at 17:30
+
+Scanning 192.168.1.148 [1 port]
+
+Completed ARP Ping Scan at 17:30, 1.35s elapsed (1 total hosts)
+
+Initiating Parallel DNS resolution of 1 host. at 17:30
+
+Completed Parallel DNS resolution of 1 host. at 17:30, 0.00s elapsed
+
+Initiating SYN Stealth Scan at 17:30
+
+Scanning machine006 (192.168.1.148) [65535 ports]
+
+Discovered open port 22/tcp on 192.168.1.148
+
+SYN Stealth Scan Timing: About 10.96% done; ETC: 17:35 (0:04:12 remaining)
+
+SYN Stealth Scan Timing: About 22.86% done; ETC: 17:35 (0:03:26 remaining)
+
+SYN Stealth Scan Timing: About 33.34% done; ETC: 17:35 (0:03:02 remaining)
+
+SYN Stealth Scan Timing: About 42.90% done; ETC: 17:35 (0:02:41 remaining)
+
+SYN Stealth Scan Timing: About 54.26% done; ETC: 17:35 (0:02:07 remaining)
+
+SYN Stealth Scan Timing: About 65.83% done; ETC: 17:35 (0:01:34 remaining)
+
+SYN Stealth Scan Timing: About 78.17% done; ETC: 17:35 (0:00:59 remaining)
+
+Completed SYN Stealth Scan at 17:35, 268.21s elapsed (65535 total ports)
+
+Initiating Service scan at 17:35
+
+Scanning 1 service on machine006 (192.168.1.148)
+
+Completed Service scan at 17:35, 0.32s elapsed (1 service on 1 host)
+
+Initiating OS detection (try #1) against machine006 (192.168.1.148)
+
+NSE: Script scanning 192.168.1.148.
+
+Initiating NSE at 17:35
+
+Completed NSE at 17:35, 0.99s elapsed
+
+Initiating NSE at 17:35
+
+Completed NSE at 17:35, 0.00s elapsed
+
+Nmap scan report for machine006 (192.168.1.148)
+
+Host is up (0.021s latency).
+
+Not shown: 65534 closed ports
+
+PORT   STATE SERVICE VERSION
+
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+
+| ssh-hostkey: 
+
+|   2048 aa:62:67:d7:db:b4:14:0d:62:e8:b9:ab:3c:7a:24:95 (RSA)
+
+|   256 ca:01:c2:06:3c:02:3c:b9:ec:84:78:41:6e:6f:bd:dd (ECDSA)
+
+|_  256 5c:27:51:bc:18:25:70:2c:ba:75:d5:ff:e3:8a:ea:9b (ED25519)
+
+MAC Address: 5C:EA:1D:09:4A:F5 (Hon Hai Precision Ind.)
+
+Device type: general purpose
+
+Running: Linux 3.X|4.X
+
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+
+OS details: Linux 3.2 - 4.9
+
+Uptime guess: 41.099 days (since Wed Jan 23 15:12:46 2019)
+
+Network Distance: 1 hop
+
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+
+IP ID Sequence Generation: All zeros
+
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+
+
+TRACEROUTE
+
+HOP RTT      ADDRESS
+
+1   20.63 ms machine006 (192.168.1.148)
+
+
+
+NSE: Script Post-scanning.
+
+Initiating NSE at 17:35
+
+Completed NSE at 17:35, 0.00s elapsed
+
+Initiating NSE at 17:35
+
+Completed NSE at 17:35, 0.00s elapsed
+
+Read data files from: C:\Program Files (x86)\Nmap
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+
+Nmap done: 1 IP address (1 host up) scanned in 280.31 seconds
+
+           Raw packets sent: 66092 (2.909MB) | Rcvd: 66078 (2.644MB)

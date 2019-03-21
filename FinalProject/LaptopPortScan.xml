@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1551825048" profile_name="Intense scan, all TCP ports" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Tue Mar 05 17:30:48 2019" args="nmap -p 1-65535 -T4 -A -v 192.168.1.148"><scaninfo services="1-65535" protocol="tcp" numservices="65535" type="syn"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2019-03-05 17:30 Eastern Standard Time
+NSE: Loaded 148 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 17:30
+Completed NSE at 17:30, 0.00s elapsed
+Initiating NSE at 17:30
+Completed NSE at 17:30, 0.00s elapsed
+Initiating ARP Ping Scan at 17:30
+Scanning 192.168.1.148 [1 port]
+Completed ARP Ping Scan at 17:30, 1.35s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 17:30
+Completed Parallel DNS resolution of 1 host. at 17:30, 0.00s elapsed
+Initiating SYN Stealth Scan at 17:30
+Scanning machine006 (192.168.1.148) [65535 ports]
+Discovered open port 22/tcp on 192.168.1.148
+SYN Stealth Scan Timing: About 10.96% done; ETC: 17:35 (0:04:12 remaining)
+SYN Stealth Scan Timing: About 22.86% done; ETC: 17:35 (0:03:26 remaining)
+SYN Stealth Scan Timing: About 33.34% done; ETC: 17:35 (0:03:02 remaining)
+SYN Stealth Scan Timing: About 42.90% done; ETC: 17:35 (0:02:41 remaining)
+SYN Stealth Scan Timing: About 54.26% done; ETC: 17:35 (0:02:07 remaining)
+SYN Stealth Scan Timing: About 65.83% done; ETC: 17:35 (0:01:34 remaining)
+SYN Stealth Scan Timing: About 78.17% done; ETC: 17:35 (0:00:59 remaining)
+Completed SYN Stealth Scan at 17:35, 268.21s elapsed (65535 total ports)
+Initiating Service scan at 17:35
+Scanning 1 service on machine006 (192.168.1.148)
+Completed Service scan at 17:35, 0.32s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against machine006 (192.168.1.148)
+NSE: Script scanning 192.168.1.148.
+Initiating NSE at 17:35
+Completed NSE at 17:35, 0.99s elapsed
+Initiating NSE at 17:35
+Completed NSE at 17:35, 0.00s elapsed
+Nmap scan report for machine006 (192.168.1.148)
+Host is up (0.021s latency).
+Not shown: 65534 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 aa:62:67:d7:db:b4:14:0d:62:e8:b9:ab:3c:7a:24:95 (RSA)
+|   256 ca:01:c2:06:3c:02:3c:b9:ec:84:78:41:6e:6f:bd:dd (ECDSA)
+|_  256 5c:27:51:bc:18:25:70:2c:ba:75:d5:ff:e3:8a:ea:9b (ED25519)
+MAC Address: 5C:EA:1D:09:4A:F5 (Hon Hai Precision Ind.)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Uptime guess: 41.099 days (since Wed Jan 23 15:12:46 2019)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   20.63 ms machine006 (192.168.1.148)
+
+NSE: Script Post-scanning.
+Initiating NSE at 17:35
+Completed NSE at 17:35, 0.00s elapsed
+Initiating NSE at 17:35
+Completed NSE at 17:35, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 280.31 seconds
+           Raw packets sent: 66092 (2.909MB) | Rcvd: 66078 (2.644MB)
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="192.168.1.148"></address><address addrtype="mac" vendor="Hon Hai Precision Ind." addr="5C:EA:1D:09:4A:F5"></address><hostnames><hostname type="PTR" name="machine006"></hostname></hostnames><ports><extraports count="65534" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="64"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.6p1 Ubuntu 4ubuntu0.2" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="38918" proto="udp"></portused><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="100"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="100"></osclass></osmatch></os><uptime lastboot="Wed Jan 23 15:12:46 2019" seconds="3550961"></uptime><tcpsequence index="259" values="EBB35CEF,D1C4890C,12930B70,5D76B7C3,66357BA7,FB2F66DF" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="D3A752DE,D3A75349,D3A753B6,D3A75449,D3A7549B,D3A75529" class="1000HZ"></tcptssequence><trace port="" proto=""><hop rtt="20.63" host="machine006" ipaddr="192.168.1.148" ttl="1"></hop></trace></host><runstats><finished timestr="Tue Mar 05 17:35:27 2019" time="1551825327"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>

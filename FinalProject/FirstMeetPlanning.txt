@@ -1,0 +1,78 @@
+Final Project - First Meet Planning
+
+...........
+05-Mar-2019
+...........
+What I need to have done before I get to GenSpace:
+    Introduction First Draft
+    Outline
+    Plans for 5 items under each of the 6 main topics
+    
+Things to Bring to GenSpace:
+    Notepad
+    Pencil
+    Laptop
+    Charger
+    Water
+    
+To Dos once I get to GenSpace:
+    General:
+        Keep eye out for "Top-Five List"
+        Take consistent notes as I work through each planned item
+        Be ready to come up with new ideas to look into
+        
+    Review confidentiality assurance:
+        "The information contained within this report is considered proprietary and confidential to the client organization. 
+        Inappropriate and unauthorized disclosure of this report or portions of it could result in significant damage or loss to the client organization. 
+        This report should be distributed to individuals on a Need-to-Know basis only. 
+        Paper copies should be locked up when not in use. 
+        Electronic copies should be stored off line and protected appropriately."
+        
+    Run through each planned topic:
+        Network/Wireless Security
+            1.  Does wi-fi have password?
+            2.  What sort of network equipment is used?
+            3.  How many devices are permanently connected to the network?
+            4.  Does the network possess any hardware or software firewall?
+            5.  Are their protocols for planned network maintenance?
+            
+        System (PC/Server) Security
+            1.  How is it decided whether a device can connect to the network?
+            2.  What software, e.g. firewalls, is used to protect individual devices?
+            3.  How often do common devices undergo software updates?
+            4.  What is the oldest device connected to the network?
+            5.  How many devices are permanently connected to the wi-fi?
+            
+        Backups/Disaster Recovery
+            1.  How is vital data stored on site?
+            2.  Is any backup software used?
+            3.  How often is data backed up?
+            4.  Are there off site backup locations?
+            5.  How often are off site backups updated?
+            
+        Physical Security
+            1.  Where is router stored, and how is it protected?
+            2.  Where are any permanently wi-fi connected devices stored, and how are they protected?
+            3.  Who has access to these locations?
+            4.  Are there any publicly accessible ethernet ports?
+            5.  How old are the locks on the building?
+            
+        AAA (Authorization/Authentication/Accounting)
+            1.  In what ways can users access the network?
+            2.  How are users of the network identified and categorized?
+            3.  What sorts of privileges do different users have?
+            4.  How is user activity tracked and monitored?
+            5.  Is any AAA software being used for the network?
+            
+        User Education
+            1.  Is there a standard procedure to follow when users transfer data over network?
+            2.  Do users understand common sources of threat risks?
+            3.  Are users encouraged to exercise secure data management practices?
+            4.  Has there been a history of previous data leaks at this network?
+            5.  What is the contingency plan for handling a data leak?
+            
+            
+    For each, record:
+        Category,
+        Topic,
+        Action
