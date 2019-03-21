@@ -189,3 +189,11 @@ It's possible that this is referring to a different aspect, though
 
 
 
+###########
+21-Mar-2019
+###########
+Do not need to do any of the scans or the network survey
+
+
+
+###########

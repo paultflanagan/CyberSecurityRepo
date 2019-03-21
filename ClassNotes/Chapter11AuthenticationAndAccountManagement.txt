@@ -1,0 +1,169 @@
+Authentication and Account Management
+
+~~~~~~~~~~~
+21-Mar-2019
+~~~~~~~~~~~
+Authentication Credentials
+    Types of credentials:
+        Where you are (CCM)
+        What you have (key fob to lock your car
+        what you are (facial recognition)
+        etc.
+    
+What you know: Passwords
+    User logging in to a system
+        asked to identify:  username
+        asked to authenticate:  password
+    Passwords are the most common type of authentication today
+    provide only weak protection
+        actions can be taken to strengthen passwords
+        
+Password Weaknesses
+    linked to human memory - can only memorize a limited number of items
+    long, complex passwords most effective, but difficult to memorize
+    users must remember many passwords for many accounts
+    each account should be unique
+    security policies mandate that passwords must expire
+        even more things to memorize.
+
+    users take shortcuts
+        weak passwords: common words, short passwords, or personal info
+    when attempting to create stronger passwords, generally follow predictable patterns:
+        appending: using letters, numbers, punctuation in a pattern
+        replacing: users use replacements in predictable patterns
+
+Check password strength
+    many tools available online to check password strength
+    (Don't enter actual password)
+
+Attacks on Passwords
+    attacks that can be used to discover passwords:
+        social engineering
+            phishing, shoulder surging, dumpster diving
+        capturing
+            keyloggers, man-in-the-middle, resetting, attacker gains physical access to computer and resets password
+
+    Offline attacks
+        method most used today
+        attackers steal file of password digests (hashed, encrypted list of usernames/passwords)
+            compares with digests of passwords and usernames they have created themselves
+
+    Brute force
+        every possible combination of letters, numbers, and characters used to create encrypted passwords and matched against stolen file
+        slowest, most thorough method
+
+    Mask attack
+        form of brute force, knows some information about the password (e.g. certain characters)
+    Rule attack
+        conducts statistical analysis on the stolen passwords that is used to create a mask to break the largest number of passwords
+            (e.g. knows min and max length of passwords)
+
+    Dictionary attacks
+        attacker creates digests of common dictionary words
+        compares against stolen digest file
+
+    Rainbow tables
+        creates large pre-generated data set of candidate digests
+        inputs the hashed value, returns the unencrypted password
+
+    Password collections
+        in 2009, attacker used an SQL injection attack and more than 32 million user passwords (in cleartext) were stolen
+        These passwords provided two key elements for password attacks
+            gave attackers large corpus of real-world passwords
+            have provided attackers advanced insight into the strategic thinking of how users create passwords
+
+Password Security
+    Securing passwords from attacks depends upon the user as well as the enterprise
+    for the user
+        involves properly managing passwords
+    for the enterprise
+        involves protecting the password digests
+
+    Managing passwords
+        most critical factor is length
+        in addition to length:
+            do not use passwords that consist of dictionary or phonetic words
+            no repetition
+            no password reusing
+
+    Password managers
+        technology used for securing passwords
+        three basic types of password manager:
+            password generators
+            online vaults
+            password management applications
+
+What you have: Tokens, Cards, and Cell Phones
+    Multi-factor authentication
+        when a user is using more than one type of authentication credential
+        ex: what a user knows and what a user has could be used together for authentication (password and keycard/fingerprint)
+    Single-factor authentication
+        using just one type of authentication
+
+Tokens
+    used to create a one time password (OTP)
+    Hardware security token
+        typically a small device with a window LED display
+    Software security token
+        stored on a general purpose device (like smartphone)
+    two types of OTPs:
+        time based
+            synced with an authentication server
+            generated with an algorithm
+            changes every 30 to 60 seconds
+        event driven
+            changes when specific event occurs
+    advantages over passwords
+        change frequently
+        can be nullified quickly
+
+Cell phones
+    increasingly replacing tokens and cards
+        code can be sent through app or texted
+        allows user to send a request via the phone to receive an HOTP authorization code
+
+What you are: BioMetrics
+    standard
+        hand, face, eyes, unique physical characteristic
+    voice recognition uses a standard microphone
+    iris scanner used standard webcam
+    facial recognition uses landmarks called nodal points to identify facial structure
+    disadvantages
+        high cost
+        some amount of error
+        can be tricked
+
+    Cognitive Biometrics
+        relates to perception, thought processes, understanding of the user
+        easier for user to remember, based on user's life experiences
+        difficult to imitate
+    
+    Behavioral biometrics
+        authentications by normal actions the user performs
+        Keystroke dynamics
+            attempts to recognizer the user's typing rhythm
+                all users type at different paces
+                over 90% effective
+
+Where you are: Geolocation
+    identification of the location of a person or object using technology
+    Used most often to reject imposters instead of accepting authorized users
+
+Single Sign-on
+    Identity management
+        using a single authentication credential shared across multiple networks
+    it is called federated identity management (FIM) when networks are owned by different organizations
+    single sign on (SSO) holds promise to reduce burden of usernames and passwords to just one.
+
+account management
+    managing user account passwords
+        can be done by setting password rules
+        too cumbersome to manage on a user-by-user basis
+            security risk if one user setting is overlooked
+    other steps to take
+        shared accounts, generic accounts, guest accounts should be prohibited
+        closely monitor any privileged accounts
+        disable account passwords instead of deleting accounts no longer being used
+        create strict policies regarding password recovery
+    transitive trust
+        two way relationship that is automatically created between parent and child accounts
