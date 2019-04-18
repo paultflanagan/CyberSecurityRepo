@@ -1,0 +1,20 @@
+You will be required to post your initial response (200-word min) and reply to two students. "I agree" will not count towards a response. Create a new thread when you initially respond and replies will be done under each students response. 
+
+
+What is your personal DR plan? Do you currently have one? What is protected and why? Do any changes need to be made over time? If you don't, why not? What could you do to create one?
+
+
+What is your personal DR plan? Do you currently have one?
+    I do not currently have a fully fleshed out DR plan. The closest thing I have is Google Drive and Github, where I store files I mainly just want to be able to access on other computers. As far as personal data backups, I don't have any plans set up.
+    
+What is protected and why?
+    I keep all of my class documents, assignments, and notes in repositories on Github. This allows me to keep my assignments safe in the event of disaster, but my main reason for using Github in this way is to practice using it.
+    
+Do any changes need to be made over time?
+    Any time I'm working on a larger assignment, I can update the project files over time with Github. Also, I make weekly commits to make sure my repositories have each week's notes and assignments.
+
+If you don't, why not?
+    I don't keep too much in the way of crucial data on my computer, but also, laziness plays no small part in my continued lack of a comprehensive disaster recovery plan.
+    
+What could you do to create one?
+    I could probably either migrate some of the personal projects I keep on my computer onto Github, or spring for a paid service like Backblaze to manage my files.
