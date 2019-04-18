@@ -1,0 +1,62 @@
+Business Continuity
+
+~~~~~~~~~~~
+18-Apr-2019
+~~~~~~~~~~~
+Group Exercise:
+"Table-top Exercise"
+We pretend to be a Group of CCM staff
+simulate an IT disaster scenario
+Formulate a plan to recover based on the group we are a part of
+No hidden agendas
+
+Event 1
+Nov 2, 2018, 3AM
+disgruntled employee
+october 30, card access not terminated
+cisco load balancers smashed with crowbar
+pulled alarm bar, turned off all power.
+
+We are Library and technology
+
+probably would have gotten emails
+
+Module 1
+Group questions
+1.  What are our priorities at this time?
+    
+2.  What department is the lead in response?
+    
+3.  Who will be coordinating
+    
+4.  How would you be alerted to a possible access
+Library and technology specific
+1.  What alarms or monitoring would be triggered
+        would have gotten an email or mobile alert from the load balancers malfuctioning
+        would have noticed that the power went out
+        alert from public safety
+        
+        
+        
+3:15    Police arrive, declare it a crime scene, say no one can touch anything
+
+5:00    guy was hiding in the library
+
+9:00    helpdesk opens, large queue
+
+9:45    social media boom, worried calls
+
+MOdule 2
+10AM
+collect all evidence, allow staff to reenter, re enable power
+
+calls to help desk are so large that the phone service is failing
+
+Module 3
+11Am
+rumor that a bomb went off
+website goes down
+
+11:30
+in the same room together
+discussing what happened
