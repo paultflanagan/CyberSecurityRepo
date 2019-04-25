@@ -1,0 +1,20 @@
+You will be required to post your initial response (200-word min) and reply to two students. "I agree" will not count towards a response. Create a new thread when you initially respond and replies will be done under each students response. 
+
+
+What security awareness training is available at your current job? Is it mandatory? If you are not working - what training are you required to complete as per CCM requirements. Is it online? In person? Are topics relevant / up to date? Do you think online or in person is more effective?
+
+
+What security awareness training is available at your current job?
+    At my most recent job, we had access to one service for Security Awareness training. It was a single assisted power point resource, the pace of which was set by the user. Once the power point is completed, it is supplemented with a quick test on the material, which must be passed in order to complete the lesson assignment.
+    
+Is it mandatory?
+    It is mandatory. However, failure to complete the assignment independently only leads to increasingly annoying email chains.
+    
+Is it online? In person?
+    It is done entirely online.
+    
+Are topics relevant / up to date?
+    For the most part, yes. The material does do a poor job of engaging the users, however.
+    
+Do you think online or in person is more effective?
+    It is difficult to say. While the power point itself is boring and routinely abused by users, the test at the end provides a useful bit of rigor to the otherwise impotent lesson. This is partly because the subject matter is information which is drilled into the heads of most computer users constantly, such that the majority of users can pass the comprehension check without paying any attention to the power point. In the event that a user is not able to pass the test easily, they only need to re-watch certain sections of the power point. All in all, I think the online program is much more effective for larger groups of relatively well-informed users, but perhaps a pre-comprehension check would be in order.
