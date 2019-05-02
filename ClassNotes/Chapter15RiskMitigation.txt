@@ -1,0 +1,101 @@
+Risk Mitigation
+
+~~~~~~~~~~~
+25-Apr-2019
+~~~~~~~~~~~
+Managing Risk
+    Risk
+        a situation that involves exposure to danger
+    Knowing what threats are faced, and assessing these in some way (i.e. monetarily) is imperative
+    
+Threat assessment
+    process of examining seriousness and likelihood of potential threats
+    Three categories:
+        Environmental
+        Man-made
+        Internal vs. external
+    determine relative worth of at-risk assets
+    
+Risk assessment
+    Testing
+        technology assets should be tested to identify vulnerabilities
+        Obtrusive vs non-obtrusive, penetration testing ("pentest"-ing)
+    Change Management
+        track changes all involving information systems
+            system architecture, file classification, etc.
+        Allows for state reversion in event of issue
+        CMT (Change management Team)
+            Duties:
+                review changes, ensure risk and impact understood, communicate impact of changes to employees.
+                
+    Privilege Management
+        Privilege: access level over an object, i.e. file
+        Management: assign + revoke these privileges.
+        
+    Incident Management
+        Incident response
+            components required to identify, analyze and contain an incident,
+        ""    "" handling
+            planning, coordination, communications, and planning functions needed to resolve incident
+        ""    "" management
+            framework and functions required to enable these responses
+    
+    Risk Calculation
+        Qualify vs. Quantify risk?
+            hard to quantify things like a tornado
+        Qualitative:
+            uses educated guess based on observation (i.e. 1-10 scale)
+        Quantitative:
+            creates hard numbers associated with the risk of an element in a system by using historical data
+            divided into likelihood of a risk and the impact of risk being faced.
+            
+        Risk likelihood:
+            many different ways to come up with these numbers
+            
+Reducing Risk
+    Use Control Types
+        
+    Distribution Allocation
+        refers to "spreading" the risk
+        Ways to distribute include:
+            Transference -      makes a third party responsible for the risk
+            Risk avoidance -    involves identifying the risk and making the decision to not engage in the activity.
+            Mitigation -        the attempt to address the risk by making it less serious.
+            
+    Implementing technology
+        risk is often introduced through human error
+        implementing automated technology can reduce these risks
+    
+    Security Policies
+        Definition of Policy:
+            agreement of action
+        Security Policy:
+            written document that states how an organization plans to protect the company's information technology assets
+            outlines the protections offered and guaranteed, and risked.
+            
+        Functions of Security Policy:
+            overall intention and direction,
+            details specific risks and contingencies.
+            
+        Many different types of security policies, all often "boilerplate" sections and entire other policies as subsections and subpolicies
+            supposed to read them all (ha)
+            
+        Types of Security Policies
+            Acceptable Use Policy (AUP)
+                what you can and cannot do on company machines
+            Personal Email Policy
+                can or cannot access personal email addresses
+            Social Media Policy
+                increases security, questionable results on productivity as of late
+        Awareness and Training
+            key defense in information security:
+                providing security awareness and training to users (sometimes called continuing education)
+            All users need continuous training in the new security defenses and be reminded of company security policies and procedures
+            Three learning styles
+                visual
+                auditory
+                kinesthetic
+            training styles impact how people learn
+                role-based training
+                    involves specialized training that is customized to the specific role that an employee holds in the organization
+        

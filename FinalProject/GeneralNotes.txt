@@ -197,3 +197,27 @@ Do not need to do any of the scans or the network survey
 
 
 ###########
+25-Apr-2019
+###########
+Make a power point
+Include top 5 vulnerabilities
+"Don't go crazy"
+    "No more than 10-15 minutes of time spent putting it together"
+Use photos?
+* 5 bullet points, 5 words each
+    ex: "Wi-fi password is on wall"
+Not graded, but don't like 
+* Use a flower theme
+No physical copies of your report, only online blackboard submission
+do not put powerpoint on blackboard
+
+No Scans
+    port scanning, device scanning, etc.
+No Site surveys
+
+
+Submit by 11:59 PM on May 9th.
+Assignments Submissions > Projects > Final Projects
+
+
+###########
